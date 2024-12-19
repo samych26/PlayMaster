@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.DatePicker?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="685.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playmaster.Controllers.Employe.SupprimerClientController">
+    <children>
+        <VBox fillWidth="false" layoutX="26.0" layoutY="47.0" prefHeight="446.0" prefWidth="769.0" styleClass="menu-box" stylesheets="@../../CSS/Style.css" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="47.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nom :">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Text>
+                <TextField fx:id="TnomClientSupprimer" prefHeight="31.0" prefWidth="270.0" promptText="Nom du client">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom :">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Text>
+                <TextField fx:id="TprenomClientSupprimer" prefHeight="31.0" prefWidth="270.0" promptText="Prenom du client">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date de Naissance :">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Text>
+                <DatePicker fx:id="TdateNaissanceClientSupprimer" prefHeight="31.0" prefWidth="270.0" promptText="JJ/MM/AAAA">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </DatePicker>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone :">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Text>
+                <TextField fx:id="TtelephoneClientSupprimer" prefHeight="31.0" prefWidth="270.0" promptText="Le numero de telephone du client ">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <Button fx:id="BsupprimerClient" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="Supprimer Client" onAction="#supprimerClient">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="messageLabel" layoutX="50.0" layoutY="300.0" text="" />
+            </children>
+            <padding>
+                <Insets left="20.0" />
+            </padding>
+        </VBox>
+        <Text layoutX="26.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supprimer un client ">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

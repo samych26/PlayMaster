@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="741.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playmaster.Controllers.Admin.ListeCompteController">
+    <children>
+        <VBox fillWidth="false" layoutX="26.0" layoutY="47.0" prefHeight="526.0" prefWidth="769.0" stylesheets="@../../CSS/Style.css" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="47.0">
+            <children>
+                <!-- Champ de recherche pour les comptes bloqués -->
+                <TextField fx:id="TsearchCompte" prefHeight="31.0" prefWidth="400.0" promptText="Rechercher un compte bloqué" />
+
+                <!-- Bouton pour afficher la liste des comptes bloqués -->
+                <Button id="BafficherListeCompte" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="Liste Comptes Bloqués" onAction="#chargerComptesBloques">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Button>
+
+                <!-- Message affiché sous forme de Label -->
+                <Label fx:id="messageLabel" layoutX="50.0" layoutY="300.0" text="" />
+
+                <!-- TableView pour afficher les comptes bloqués -->
+                <TableView fx:id="tableViewEmploye" layoutX="14.0" layoutY="100.0" prefHeight="400.0" prefWidth="769.0">
+                    <columns>
+                        <!-- Définition des colonnes pour afficher les attributs du compte bloqué -->
+                        <TableColumn fx:id="Identifiant" text="Identifiant" prefWidth="200.0" />
+                        <TableColumn fx:id="Mot_de_passe" text="Mot de Passe" prefWidth="200.0" />
+                        <TableColumn fx:id="Date_bloquage" text="Date de Bloquage" prefWidth="200.0" />
+                        <TableColumn fx:id="raison_bloquage" text="Raison du Bloquage" prefWidth="200.0" />
+                    </columns>
+                </TableView>
+            </children>
+
+            <padding>
+                <Insets left="20.0" />
+            </padding>
+            <styleClass>
+                <String fx:value="menu-box" />
+                <String fx:value="menu-box" />
+            </styleClass>
+        </VBox>
+        <Text layoutX="26.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des comptes bloqués ">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

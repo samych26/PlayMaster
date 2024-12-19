@@ -1,0 +1,74 @@
+/* left-pane.css */
+
+/* Fond de la partie gauche avec border-radius */
+.left-pane {
+    -fx-background-color: #ECF0F1; /* Fond gris clair */
+    -fx-border-radius: 20px; /* Bord arrondi */
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.5, 0, 4); /* Ombre légère */
+}
+
+/* Style des MenuButton dans la partie gauche */
+.left-pane .menu-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #557185; /* Bleu plus clair */
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10px; /* Bord arrondi des boutons */
+    -fx-padding: 10px 20px; /* Padding autour du texte */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 2); /* Ombre portée légère */
+    -fx-min-width: 150px; /* Largeur minimale */
+    -fx-max-width: 200px; /* Largeur maximale */
+    -fx-alignment: center;
+    -fx-graphic-text-gap: 10px; /* Espace entre l'image et le texte */
+}
+
+/* Effet au survol du MenuButton */
+.left-pane .menu-button:hover {
+    -fx-background-color: #378f98; /* Fond bleu foncé sur le survol */
+    -fx-text-fill: white; /* Texte en blanc */
+}
+
+/* Style des éléments du MenuButton */
+.left-pane .menu-button .menu-item {
+    -fx-background-color: #4f6c6c; /* Fond gris clair pour les items */
+    -fx-text-fill: #ffffff; /* Texte bleu */
+    -fx-font-size: 13px;
+    -fx-padding: 10px; /* Padding autour du texte des items */
+    -fx-border-radius: 5px; /* Bord arrondi des items */
+}
+
+
+
+
+/* Style du bouton "Se Déconnecter" */
+.left-pane .button#BdeconnecterMenu {
+    -fx-background-color: linear-gradient(to right, #2980B9, #8E44AD); /* Dégradé marqué du bleu clair au violet */
+    -fx-text-fill: #ECF0F1; /* Texte clair pour contraster avec le fond */
+    -fx-font-size: 18px;
+    -fx-padding: 10 20 10 20;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(gaussian, #2C3E50, 5, 0.5, 0, 2); /* Ombre portée subtile */
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-transition: all 0.3s ease-in-out; /* Transition sur toutes les propriétés */
+}
+
+/* Effet au survol du bouton "Se Déconnecter" */
+.left-pane .button#BdeconnecterMenu:hover {
+    -fx-background-color: #C0392B; /* Fond rouge plus foncé sur survol */
+}
+
+.menu-item {
+    -fx-background-color: #4f6c6c; /* Fond gris clair */
+    -fx-text-fill: #ffffff; /* Texte bleu */
+    -fx-font-size: 13px;
+    -fx-padding: 10px; /* Padding autour du texte des items */
+    -fx-border-radius: 5px; /* Bord arrondi des items */
+}
+
+/* Effet au survol */
+.menu-item:hover {
+    -fx-background-color: #378f98; /* Fond bleu foncé */
+    -fx-text-fill: white; /* Texte en blanc */
+}
+
+

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850" prefWidth="1200" styleClass="left-pane" stylesheets="@../../CSS/left.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playmaster.Views.ViewController">
+   <left>
+      <GridPane prefHeight="810.0" prefWidth="240.0" style="-fx-background-color: #ECF0F1;" styleClass="left-pane" stylesheets="@../../CSS/Style.css" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="127.19049944196428" minHeight="10.0" prefHeight="114.28572300502232" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="515.4285670689175" minHeight="10.0" prefHeight="447.8571690150669" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="317.28571428571433" minHeight="10.0" prefHeight="108.99997384207586" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../Assets/logoo.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets top="35.0" />
+               </GridPane.margin>
+            </ImageView>
+            <MenuButton alignment="CENTER" contentDisplay="LEFT" mnemonicParsing="false" popupSide="RIGHT" prefHeight="26.0" prefWidth="110.0" text="CLIENTS" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+              <items>
+                <MenuItem id="BenregistrerClientMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Enregistrer un(e) client(e)" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem id="BsupprimerclientMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Supprimer un(e) client(e)" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem id="BlisteClientsMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Liste des clients(es)" />
+              </items>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <GridPane.margin>
+                  <Insets top="250.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+                <graphic>
+                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../Assets/client_6009897.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </MenuButton>
+            <MenuButton alignment="CENTER" contentDisplay="LEFT" maxWidth="209.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="55.0" prefWidth="209.0" text="TOURNOIS" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+              <items>
+                <MenuItem id="BcreerTournoiMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Creer un tournoi" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem id="BinscrireJoueureMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Inscrire un(e) Joueure(se)" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem id="BhistoriqueTournoisMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Historique des tournois" />
+              </items>
+               <GridPane.margin>
+                  <Insets bottom="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+                <graphic>
+                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../Assets/cup_2314414.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </MenuButton>
+            <MenuButton alignment="CENTER" mnemonicParsing="false" popupSide="RIGHT" prefHeight="26.0" prefWidth="110.0" text="JEU" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+              <items>
+                <MenuItem id="BsupprimerJeuMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Supprimer un Jeu" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem id="BajouterJeuMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Ajouter un Jeu" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem id="BlisteJeuxMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Liste de Jeux" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem id="BmodifierJeuMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Modifier un Jeu" />
+              </items>
+               <GridPane.margin>
+                  <Insets bottom="300.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+                <graphic>
+                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../Assets/joystick_13687269.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </MenuButton>
+            <Button id="BdeconnecterMenu" mnemonicParsing="false" onAction="#chargerPageCliquer" text="Se Déconnecter" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+                <graphic>
+                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../../Assets/power_5973826.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </left>
+    <center>
+        <BorderPane fx:id="contentPane" prefHeight="741.0" prefWidth="835.0" styleClass="form-container" stylesheets="@../../CSS/Form.css">
+            <center>
+                <VBox alignment="CENTER" spacing="20">
+
+
+                    <!-- Message de bienvenue -->
+                    <Label fx:id="welcomeLabel" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2C3E50;" text="Bienvenue, [Nom d'utilisateur] !" />
+
+                    <!-- Informations supplémentaires -->
+                    <Label style="-fx-font-size: 16px; -fx-text-fill: #7F8C8D;" text="Votre rôle : [Employé]" />
+
+                    <!-- Citation inspirante -->
+                    <Label style="-fx-font-size: 20px; -fx-text-fill: #95A5A6; -fx-font-style: italic; -fx-alignment: CENTER;" text="La seule façon de faire du bon travail est d’aimer ce que vous faites." />
+                </VBox>
+            </center>
+        </BorderPane>
+    </center>
+</BorderPane>

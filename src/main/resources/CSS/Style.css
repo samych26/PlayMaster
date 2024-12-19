@@ -1,0 +1,112 @@
+/* Couleur de fond avec dégradé de haut en bas */
+.root {
+    -fx-background-color: #ECF0F1; /* Gris très clair */
+
+}
+
+/* Boutons avec dégradé plus prononcé, texte et ombre */
+.button {
+    -fx-background-color: linear-gradient(to right, #2980B9, #8E44AD); /* Dégradé marqué du bleu clair au violet */
+    -fx-text-fill: #ECF0F1; /* Texte clair pour contraster avec le fond */
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 18px;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(gaussian, #2C3E50, 5, 0.5, 0, 2); /* Ombre portée subtile */
+    -fx-font-family: 'Montserrat', sans-serif;
+}
+
+/* Hover sur les boutons avec effet de dégradé */
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #8E44AD, #d793ec); /* Dégradé violet au survol, de gauche à droite */
+    -fx-text-fill: white; /* Texte en blanc au survol */
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow(gaussian, #34495E, 8, 0.7, 0, 2); /* Ombre gris foncé au survol */
+}
+
+/* Texte principal */
+.label {
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-text-fill: #34495E; /* Gris très foncé */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Texte secondaire */
+.text-secondary {
+    -fx-text-fill: #BDC3C7; /* Gris clair */
+    -fx-font-size: 14px;
+    -fx-font-family: 'Montserrat', sans-serif;
+}
+
+/* Alertes */
+.alert {
+    -fx-background-color: #E74C3C; /* Rouge vif */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+}
+
+/* Notification de succès */
+.success {
+    -fx-text-fill: #27AE60; /* Vert foncé */
+    -fx-font-weight: bold;
+}
+
+/* Séparateurs */
+.separator {
+    -fx-background-color: #7F8C8D; /* Gris moyen */
+}
+
+/* Les champs de texte */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #7F8C8D; /* Gris foncé */
+    -fx-border-width: 2;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Montserrat', sans-serif;
+}
+
+.text-field:focused {
+    -fx-border-color: #2C3E50; /* Bleu-gris foncé quand focussé */
+}
+
+/* Les menus déroulants */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #7F8C8D;
+    -fx-border-width: 2;
+    -fx-padding: 5;
+}
+
+/* RadioButton */
+.radio-button {
+    -fx-text-fill: #34495E; /* Texte gris très foncé */
+    -fx-font-size: 14px;
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-padding: 5 10 5 10;
+}
+
+/* Style du cercle (bulles) des RadioButton */
+.radio-button .radio {
+    -fx-background-color: #BDC3C7; /* Gris clair pour la bulle */
+    -fx-border-width: 2;
+    -fx-background-insets: 0;
+    -fx-background-radius: 50%;
+}
+
+/* Bulle remplie lors de la sélection */
+.radio-button:selected .radio {
+    -fx-background-color: #2C3E50; /* Bleu-gris foncé lors de la sélection */
+}
+
+/* Bulle survolée */
+.radio-button:hover .radio {
+    -fx-background-color: #8E44AD; /* Violet au survol */
+}
+
+/* Le texte des RadioButton au survol */
+.radio-button:hover {
+    -fx-text-fill: #8E44AD; /* Texte violet au survol */
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="817.0" stylesheets="@../CSS/Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playmaster.Controllers.LoginController">
+   <center>
+        <Pane prefHeight="627.0" prefWidth="629.0" style="-fx-background-color: #ECF0F1;" BorderPane.alignment="CENTER">
+            
+            <children>
+                <Label layoutX="194.0" layoutY="179.0" style="-fx-text-fill: black;" text="Identifiant:">
+                    <font>
+                        <Font name="System Italic" size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="Tid" layoutX="192.0" layoutY="217.0" prefHeight="38.0" prefWidth="445.0" promptText="Entrez votre identifiant" style="-fx-border-color: rgb(30,30,30); -fx-border-radius: 10; -fx-background-radius: 10; -fx-border-width: 1;" />
+
+                      <Label layoutX="192.0" layoutY="277.0" style="-fx-text-fill: black;" text="Mot de passe :">
+                    <font>
+                        <Font name="System Italic" size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="Tmotdepasse" layoutX="192.0" layoutY="314.0" prefHeight="38.0" prefWidth="447.0" promptText="***************" style="-fx-border-width: 1; -fx-border-radius: 10; -fx-background-radius: 10; -fx-border-color: rgb(30,30,30);" />
+
+                      <Label layoutX="260.0" layoutY="399.0" style="-fx-text-fill: black;" text="Quel est le type de votre compte ?">
+                    <font>
+                        <Font name="System Italic" size="14.0" />
+                    </font>
+                </Label>
+                <RadioButton fx:id="employeRadioButton" layoutX="278.0" layoutY="450.0" mnemonicParsing="false" text="Employé">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="Buttongroupe1" />
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="adminRadioButton" layoutX="424.0" layoutY="450.0" mnemonicParsing="false" text="Admin" toggleGroup="$Buttongroupe1" />
+
+                <Label fx:id="erreurLab" layoutX="193.0" layoutY="487.0" prefHeight="25.0" prefWidth="500.0" text="" />
+                      <Button fx:id="Bconnecter" layoutX="181.0" layoutY="529.0" onAction="#GestionConnexion" prefHeight="36.0" prefWidth="462.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: rgb(30,30,30);" text="Se Connecter" textFill="WHITE">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+
+
+            <ImageView fitHeight="171.0" fitWidth="173.0" layoutX="318.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/logoo.png" />
+               </image>
+            </ImageView>
+
+            </children>
+        </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,68 @@
+/* Style général pour la section Form */
+.form-container {
+    -fx-padding: 20px;
+    -fx-background-color: #F4F6F6; /* Fond clair pour le formulaire */
+    -fx-border-radius: 10px;
+    -fx-border-color: #BDC3C7;
+    -fx-border-width: 1px;
+    -fx-spacing: 15px;
+}
+
+/* Style des Label et TextField */
+.form-container .label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50; /* Couleur du texte */
+}
+
+/* Style des TextField et autres champs de saisie */
+.form-container .text-field,
+.form-container .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #BDC3C7;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-pref-width: 400px;
+}
+
+/* Style des boutons (pour ne pas affecter le bouton LocalDate) */
+.form-container .button {
+    -fx-background-color: #219894; /* Bleu */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+}
+
+/* Style spécifique pour le bouton LocalDate */
+.form-container .local-date-button {
+    -fx-background-color: #267793; /* Vert spécifique */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+}
+
+/* Effet au survol des boutons généraux */
+.form-container .button:hover {
+    -fx-background-color: #0dc8a6;
+}
+
+/* Effet au survol du bouton LocalDate */
+.form-container .local-date-button:hover {
+    -fx-background-color: #80ba97;
+}
+
+/* Style des DatePicker */
+.form-container .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #BDC3C7;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+
+
+

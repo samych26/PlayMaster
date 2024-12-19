@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PlayMaster:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="284fe564-1962-4ab6-91fe-a0bffdbbc5a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/AjouterEmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/DebloquerCompteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/ListeCompteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/ListeEmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/ModifierEmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Admin/SupprimerEmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/AjouterJeuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/CreerTournoiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/EmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/EnregistrerClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/HistoriqueTournoisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/InscrireJoueureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/ListeClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/ListeJeuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/ModifierJeuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/SupprimerClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/Employe/SupprimerJeuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/AjouterJeuModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/BaseDonneeConnexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/CompteBloque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ComptesBloquesModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/CreerTournoiModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/DebloquerCompteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/EnregistrerClientModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/EnregistrerParticipantModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/HistoriqueTournoisModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/Jeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ListeClientModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ListeEmployeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ListeJeuModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ModifierEmployeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ModifierJeuModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/SupprimerClientModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/SupprimerEmployeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/SupprimerJeuModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/Tournoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Models/ajouterEmployeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/Views/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/playmaster/launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/Form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdminMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AjouterEmploye.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/DebloquerCompte.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/ListeCompteBloquer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/ListeEmploye.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/ModifierEmploye.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/SupprimerEmploye.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/AjouterJeu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/CreerTournoi.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/EmployeMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/EnregistrerClient.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/HistoriqueTournoi.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/InscrireJoueure.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/ListeClients.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/ListeJeu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/ListeParticipants.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/SupprimerClient.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/SupprimerJeu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Employe/modifierJeu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pYzKhLNuPWVCUpU8R3pAcogW75" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.TestDatabaseConnection.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/samyc/IdeaProjects/PlayMaster/src/main/resources/Assets",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samyc\IdeaProjects\PlayMaster\src\main\resources\Assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samyc\IdeaProjects\PlayMaster\src\main\java\com\example\playmaster\Models" />
+      <recent name="C:\Users\samyc\IdeaProjects\PlayMaster\src\main\java\com\example\playmaster\Views" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.playmaster.App" />
+      <module name="PlayMaster" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="284fe564-1962-4ab6-91fe-a0bffdbbc5a3" name="Changes" comment="" />
+      <created>1732739768114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732739768114</updated>
+      <workItem from="1732739770478" duration="491000" />
+      <workItem from="1732957743724" duration="24096000" />
+      <workItem from="1733048588755" duration="306000" />
+      <workItem from="1733051422455" duration="1059000" />
+      <workItem from="1733155513483" duration="4340000" />
+      <workItem from="1733210365962" duration="4344000" />
+      <workItem from="1733246632151" duration="8137000" />
+      <workItem from="1733303227322" duration="6236000" />
+      <workItem from="1733334833579" duration="1282000" />
+      <workItem from="1733391653567" duration="8088000" />
+      <workItem from="1733401125686" duration="5866000" />
+      <workItem from="1733419306425" duration="124000" />
+      <workItem from="1733499940984" duration="21492000" />
+      <workItem from="1733560409220" duration="284000" />
+      <workItem from="1733560994991" duration="717000" />
+      <workItem from="1733561970524" duration="8088000" />
+      <workItem from="1733677112437" duration="691000" />
+      <workItem from="1733681700127" duration="3282000" />
+      <workItem from="1733694712708" duration="125000" />
+      <workItem from="1733748983753" duration="223000" />
+      <workItem from="1733749358445" duration="278000" />
+      <workItem from="1733769529080" duration="2162000" />
+      <workItem from="1733815263502" duration="1807000" />
+      <workItem from="1733845097871" duration="927000" />
+      <workItem from="1733846151124" duration="6446000" />
+      <workItem from="1733853148092" duration="6790000" />
+      <workItem from="1733934621089" duration="327000" />
+      <workItem from="1733935210543" duration="2741000" />
+      <workItem from="1733938113331" duration="285000" />
+      <workItem from="1733938808556" duration="380000" />
+      <workItem from="1733942272169" duration="1050000" />
+      <workItem from="1733943737097" duration="112000" />
+      <workItem from="1733944207723" duration="11975000" />
+      <workItem from="1734096625997" duration="2575000" />
+      <workItem from="1734280865720" duration="335000" />
+      <workItem from="1734293373804" duration="446000" />
+      <workItem from="1734373087305" duration="5806000" />
+      <workItem from="1734379314322" duration="349000" />
+      <workItem from="1734377561748" duration="7290000" />
+      <workItem from="1734423763592" duration="332000" />
+      <workItem from="1734424280443" duration="5112000" />
+      <workItem from="1734434783933" duration="324000" />
+      <workItem from="1734435449349" duration="3322000" />
+      <workItem from="1734453019840" duration="530000" />
+      <workItem from="1734453789814" duration="13894000" />
+      <workItem from="1734502468623" duration="1231000" />
+      <workItem from="1734527534867" duration="34957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
