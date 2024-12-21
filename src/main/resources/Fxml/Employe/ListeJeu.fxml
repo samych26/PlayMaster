@@ -15,7 +15,7 @@
     <children>
         <VBox  fillWidth="false" layoutX="14.0" layoutY="48.0" prefHeight="446.0" prefWidth="769.0" styleClass="menu-box" stylesheets="@../../CSS/Style.css" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="48.0">
             <children>
-                <TextField fx:id="TsearchJeu" prefHeight="31.0" prefWidth="400.0" promptText="Rechercher un employé" />
+                <TextField fx:id="TsearchJeu" prefHeight="31.0" prefWidth="400.0" promptText="Rechercher un jeu" />
                 <Button fx:id="BafficherListeJeu" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="Liste Jeux" onAction="#afficherListeJeux">
                     <VBox.margin>
                         <Insets top="10.0" />

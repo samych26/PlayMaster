@@ -32,7 +32,7 @@
                 </Text>
                 <TextField fx:id="TprenomEmployeAjouter" prefHeight="40.0" prefWidth="450.0" promptText="Prenom du Employé">
                     <VBox.margin>
-                        <Insets top="10.0" />
+                        <Insets top="5.0" />
                     </VBox.margin>
                 </TextField>
                 <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date de Naissance :">
@@ -48,54 +48,57 @@
                 </Text>
                 <TextField fx:id="TnumeroTellEmployeAjouter" prefHeight="40.0" prefWidth="450.0" promptText="Le numero de telephone de l'employé">
                     <VBox.margin>
-                        <Insets top="10.0" />
+                        <Insets top="5.0" />
                     </VBox.margin>
                 </TextField>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Poste :">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </Text>
             <TextField fx:id="TposteOccupeAjouter" prefHeight="40.0" prefWidth="450.0" promptText="Poste occupé">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </TextField>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Salaire :">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </Text>
             <TextField fx:id="TsalaireEmployeAjouter" prefHeight="40.0" prefWidth="450.0" promptText="Salaire de l'employé">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </TextField>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DateEmbauche :">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </Text>
-            <DatePicker fx:id="DateEmbaucheEmployeAjouter" prefHeight="40.0" prefWidth="272.0" promptText="JJ/MM/AAAA" />
+            <DatePicker fx:id="DateEmbaucheEmployeAjouter" prefHeight="40.0" prefWidth="272.0" promptText="JJ/MM/AAAA">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></DatePicker>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Statut :">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </Text>
             <TextField fx:id="TstautEmployeAjouter" prefHeight="40.0" prefWidth="450.0" promptText="&quot;Actif&quot;&quot;En congé&quot;&quot;Licencié&quot;">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </TextField>
+                <Label fx:id="messageLabel" layoutX="50.0" layoutY="300.0" prefHeight="26.0" prefWidth="454.0" text="" />
                 <Button fx:id="BajouterEmploye" mnemonicParsing="false" onAction="#ajouterEmploye" prefHeight="30.0" prefWidth="195.0" text="Ajouter Employe">
                     <VBox.margin>
-                        <Insets top="25.0" />
+                        <Insets top="2.0" />
                     </VBox.margin>
                     <font>
                         <Font name="System Bold Italic" size="14.0" />
                     </font>
                 </Button>
-                <Label fx:id="messageLabel" layoutX="50.0" layoutY="300.0" text="" />
             </children>
             <padding>
                 <Insets left="20.0" />
